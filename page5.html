@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile Merry</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="labs.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <a class="nav-link" href="main.html">Home</a>
+          <a class="nav-link" href="page2.html">Profile Randiel</a>
+          <a class="nav-link" href="page3.html">Contact Randiel</a>
+          <a class="nav-link" href="page4.html">Vision & mission</a>
+          <a class="nav-link" href="page5.html">Profile Merry</a>
+          <a class="nav-link" href="page7.html">Contact Merry</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="container mt-4">
+      <img
+        src="https://scontent.flgp1-1.fna.fbcdn.net/v/t39.30808-6/321992975_851176772830527_7492261547739738004_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEMcElqMmfqh48hcxh2HC7-lDYB4-LvBKWUNgHj4u8Epfu7oldDIBsZDpx5XpUEzBQQDB2K_JUG8-1VWEWn5WHr&_nc_ohc=_YdJbwTcYWkAX9ORabw&_nc_ht=scontent.flgp1-1.fna&oh=00_AfBDkqJUuBZuNHeX6LD6RR0J7z0HjXtqtcFfxfP0LlV8Vw&oe=641ACCAF"
+        alt="Profile Picture"
+        width="200"
+        height="200"
+        style="float: right; margin-left: 10px"
+      />
+
+      <h1 class="text-center">Merry Chris Villar</h1>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Contact Information</h5>
+          <p>
+            123 Main St<br />
+            Anytown, USA 12345<br />
+            Email: john.doe@email.com<br />
+            Phone: (123) 456-7890
+          </p>
+        </div>
+        <div class="col-md-8">
+          <h5>Professional Summary</h5>
+          <p>mndudjsbhbcul contributions to the team.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Education</h5>
+          <ul>
+            <li>Bachelor of Science in Computer Science, XYZ University</li>
+            <li>Master of Science in Computer Science, ABC University</li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <h5>Work Experience</h5>
+          <h6>Software Engineer, ABC Company</h6>
+          <p>June 2018 - Present</p>
+          <ul>
+            <li>
+              Developed and maintained various web applications using Angular
+              and Node.js
+            </li>
+            <li>
+              Collaborated with team members on projects and provided technical
+              guidance to junior developers
+            </li>
+            <li>
+              Participated in code reviews and implemented changes based on
+              feedback
+            </li>
+          </ul>
+          <h6>Web Developer, XYZ Corporation</h6>
+          <p>January 2016 - May 2018</p>
+          <ul>
+            <li>
+              Designed and developed responsive websites using HTML, CSS, and
+              JavaScript
+            </li>
+            <li>Worked closely with clients to understand their needs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <button onclick="goBack()">Go Back</button>
+
+        <script>
+          function goBack() {
+            window.history.back();
+          }
+        </script>
+      </div>
+      <div class="container" id="Next">
+        <button onclick="goNext()">Next</button>
+
+        <script>
+          function goNext() {
+            window.location.href = "page6.html";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

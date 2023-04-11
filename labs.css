@@ -1,0 +1,105 @@
+Next {
+  background-color: blue;
+}
+body {
+  background-color: chocolate;
+  text-align: center;
+}
+button {
+  background-color: #ff6f61;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #e85a4f;
+}
+.nav {
+  background-color: burlywood;
+}
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.social-icons a:hover {
+  background-color: #666;
+}
+.social-icons a img {
+  vertical-align: middle;
+}
+
+<!-- nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.cong {
+  background-color: #fff;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-image: url("https://dummyimage.com/200x200/000/fff");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #006b8e;
+}
