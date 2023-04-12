@@ -83,7 +83,17 @@ nav a:hover {
   height: 200px;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url("https://dummyimage.com/200x200/000/fff");
+  background-image: url("https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/328052343_556011443123401_3820500266946945157_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFjXPT0ubfmPdUUIXFB9c-IqYVLv89htOyphUu_z2G07CyjamJYfiZiteh80ByJkmERl4f5pSVGzsIvEGoQAv4h&_nc_ohc=T9h9EvBKBMsAX9sojr3&_nc_ht=scontent-cdg4-2.xx&oh=00_AfDAk2zl3TaVQ2SK5AVn4WwkmoB_cYgjx_O3-3ytB6g19w&oe=643B95F4");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.profile-pic-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/321992975_851176772830527_7492261547739738004_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEMcElqMmfqh48hcxh2HC7-lDYB4-LvBKWUNgHj4u8Epfu7oldDIBsZDpx5XpUEzBQQDB2K_JUG8-1VWEWn5WHr&_nc_ohc=9_5_qbAtSBYAX8UXbjB&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBjqqMx7_1fHG6rkeaf5KF983bOWlc0qM2IoyNkeROG9w&oe=643C6AEF");
   background-position: center;
   background-size: cover;
   cursor: pointer;
