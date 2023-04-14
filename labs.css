@@ -1,4 +1,4 @@
-Next {
+.Next {
   background-color: blue;
 }
 body {
@@ -21,30 +21,13 @@ button:hover {
 .nav {
   background-color: burlywood;
 }
-.social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #333;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  color: #fff;
-}
-.social-icons a:hover {
-  background-color: #666;
-}
-.social-icons a img {
-  vertical-align: middle;
-}
 
-<!-- nav {
+nav {
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: center;
+  margin-top: auto;
 }
 
 nav ul {
@@ -88,7 +71,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   cursor: pointer;
-  display: flex;
+  display: inline-block;
 }
 .profile-pic-2 {
   width: 200px;
@@ -99,8 +82,9 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   cursor: pointer;
+  display: inline-block;
 }
-
+/* main page css */
 .btn {
   padding: 10px 20px;
   background-color: #008cba;
@@ -114,4 +98,61 @@ nav a:hover {
 
 .btn:hover {
   background-color: #006b8e;
+}
+
+.btn-1 {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* page 8 css */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.social-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.social-links a i {
+  color: #000;
+  font-size: 24px;
+}
+
+.social-links .facebook i {
+  color: #3b5998;
+}
+
+.social-links .twitter i {
+  color: #1da1f2;
+}
+
+.social-links .instagram i {
+  color: #c13584;
+}
+
+.social-links .linkedin i {
+  color: #0077b5;
 }
