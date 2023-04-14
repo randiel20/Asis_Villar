@@ -2,7 +2,7 @@
   background-color: blue;
 }
 body {
-  background-color: chocolate;
+  background-color: #e8e4c9;
   text-align: center;
 }
 button {
@@ -14,6 +14,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  display: inline-block;
 }
 button:hover {
   background-color: #e85a4f;
