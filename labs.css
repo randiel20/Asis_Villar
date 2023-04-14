@@ -1,24 +1,9 @@
-.Next {
-  background-color: blue;
-}
 body {
   background-color: #e8e4c9;
   text-align: center;
 }
-button {
-  background-color: #ff6f61;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  display: inline-block;
-}
-button:hover {
-  background-color: #e85a4f;
-}
+
+/* Navigation css */
 .nav {
   background-color: burlywood;
 }
@@ -42,10 +27,6 @@ nav li {
   margin: 0 10px;
 }
 
-.cong {
-  background-color: #fff;
-  margin-top: auto;
-}
 nav a {
   color: #fff;
   text-decoration: none;
@@ -55,6 +36,7 @@ nav a {
 nav a:hover {
   background-color: #555;
 }
+/* General css */
 .container {
   display: flex;
   justify-content: center;
@@ -63,6 +45,7 @@ nav a:hover {
   margin-top: 50px;
 }
 
+/* Main css */
 .profile-pic {
   width: 200px;
   height: 200px;
