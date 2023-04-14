@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile Randiel</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="labs.css" />
+  </head>
+  <body>
+    <div class="cong">
+      <nav>
+        <ul>
+          <a class="nav-link" href="main.html">Home</a>
+          <a class="nav-link" href="page2.html">Profile Randiel</a>
+          <a class="nav-link" href="page3.html">Contact Randiel</a>
+          <a class="nav-link" href="page4.html">Vision & mission</a>
+          <a class="nav-link" href="page5.html">Profile Merry</a>
+          <a class="nav-link" href="page7.html">Contact Merry</a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container mt-4">
+      <div class="profile-pic"></div>
+
+      <h1 class="text-center">Randiel James Asis</h1>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Contact Information</h5>
+          <p>
+            123 Main St<br />
+            Anytown, USA 12345<br />
+            Email: randielasis15@gmail.com<br />
+            Mobile: +639380828470
+
+          </p>
+        </div>
+       
+      <div class="container">
+        <button onclick="goBack()">Go Back</button>
+
+        <script>
+          function goBack() {
+            window.history.back();
+          }
+        </script>
+      </div>
+      <div class="container" id="Next">
+        <button onclick="goNext()">Next</button>
+
+        <script>
+          function goNext() {
+            window.location.href = "page3.html";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
