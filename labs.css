@@ -143,3 +143,29 @@ nav a:hover {
 .social-links .linkedin i {
   color: #0077b5;
 }
+/* Contack info */
+address {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+address p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+address a {
+  color: blue;
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
+/* page 2 css */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
