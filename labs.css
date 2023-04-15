@@ -45,6 +45,9 @@ nav a:hover {
   margin-top: 50px;
 }
 
+.container-8 {
+  display: flex;
+}
 /* Main css */
 .profile-pic {
   width: 200px;
