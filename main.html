@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Resume - Page 1</title>
+    <title>Our Portfolio - Page 1</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -14,17 +14,35 @@
   </head>
 
   <!--Hello And Welcome-->
+  <!--I put changes this part of the code: header, navigation parts and the script -->
   <body>
-    <div>
+    
+    <header> 
+      <div class="logo">Portfolio</div>
+      <div class="random">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      
       <!--Nav-->
-      <nav>
+       <nav class="nav-bar">
         <ul>
-          <li><a href="main.html">Home</a></li>
-          <li><a href="page7.html">About</a></li>
-          <li><a href="page8.html">Social</a></li>
+          <li><a href="main.html" class="nav-link active">Home</a></li>
+          <li><a href="page7.html" class="nav-link">About</a></li>
+          <li><a href="page8.html" class="nav-link">Socials</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
+    
+    <script>
+      random = document.querySelector(".random");
+      random.onclick = function(){
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      }
+    </script>
+    
     <div class="container mt-4">
       <h1>Welcome!</h1>
     </div>
