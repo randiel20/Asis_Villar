@@ -12,16 +12,31 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="cong">
-      <nav>
+    <header> 
+      <div class="logo">Portfolio</div>
+      <div class="random">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      
+      <!--Nav-->
+       <nav class="nav-bar">
         <ul>
-         <li><a href="main.html">Home</a></li>
-          <li><a href="page7.html">About</a></li>
-          <li><a href="page8.html">Social</a></li>
+          <li><a href="main.html" class="nav-link active">Home</a></li>
+          <li><a href="page7.html" class="nav-link">About</a></li>
+          <li><a href="page8.html" class="nav-link">Socials</a></li>
         </ul>
       </nav>
-    </div>
-   
+    </header>
+    
+    <script>
+      random = document.querySelector(".random");
+      random.onclick = function(){
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      }
+    </script>
       <hr />
       <div class="row">
         <div class="col-md-4">
