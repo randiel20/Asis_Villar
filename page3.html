@@ -10,22 +10,22 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" /> 
-      <link rel="stylesheet" href="labs.css" />
-    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="labs.css" />
+
+    <style></style>
   </head>
   <body>
-     
- <header> 
+    <header>
       <div class="logo">Portfolio</div>
       <div class="random">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </div>
-      
+
       <!--Nav-->
-       <nav class="nav-bar">
+      <nav class="nav-bar">
         <ul>
           <li><a href="main.html" class="nav-link">Home</a></li>
           <li><a href="page2.html" class="nav-link">Him</a></li>
@@ -34,63 +34,76 @@
         </ul>
       </nav>
     </header>
-    
+
     <script>
       random = document.querySelector(".random");
-      random.onclick = function(){
+      random.onclick = function () {
         navBar = document.querySelector(".nav-bar");
         navBar.classList.toggle("active");
-      }
+      };
     </script>
 
-     <div class="card" id="experience">
-    	<h1>Experience and Skills</h1>
-        <div class="top-divider"></div>
-        <div class="content">
-            <div class="col">
-            <h2>IT Security specialist at Metro Bank 2025-2030</h2>
-            <p>Hacking and testing bank's security networks if its safe or not to improve the security of a company.   </p>
-            </div>
-            
-            <div class="col col-mid">
-            <h2>System Analyst, BDO 2027-2031 </h2>
-            <p>Designing system for the company and making the code shorter  </p>
-            </div>
-            
-            <div class="col">
-            <h2>Technical Support at BDO 2028-2032</h2>
-            <p>Providing the company to monitor computer system software and hardware </p>
-            </div>
-        </div>    
-        <div class="bottom-divider"></div>
+    <div class="header">
+      <h1>Your Name</h1>
+      <p>
+        Email: your.email@example.com | Phone: 123-456-7890 | LinkedIn:
+        linkedin.com/in/yourname
+      </p>
     </div>
-<!--End Experience Section-->
 
-<!--Begin Education Section-->  
-    <div class="card" id="education">
-            <h1>Education</h1>
-            <div class="top-divider"></div>
-            <div class="content">
-                <div class="col">
-                  <h4>Aroroy East Central School</h4>
-                <h4>F. Serrano Elementary School</h4>
-                  <h4>Aroroy NationaL High School </h4>
-                  <h4>Bicol University College of Science</h4>
-                </div>
-        
-             </div>    
-            <div class="bottom-divider"></div>
-        </div>
-      
-
-     
-  </div>
-      </div>
-      
+    <div class="section">
+      <h2>Summary</h2>
+      <p>A brief summary of your professional background and career goals.</p>
     </div>
-            <div class="button-container">
-    <a href="main.html" class="prev-button">Home</a>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h4>Job Title, Company Name</h4>
+          <p>Employment dates</p>
+          <ul>
+            <li>Responsibility 1</li>
+            <li>Responsibility 2</li>
+            <li>Responsibility 3</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Job Title, Company Name</h4>
+          <p>Employment dates</p>
+          <ul>
+            <li>Responsibility 1</li>
+            <li>Responsibility 2</li>
+            <li>Responsibility 3</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h4>Degree, Major, School Name</h4>
+          <p>Graduation date</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </div>
+
+    <br />
+    <div class="button-container">
+      <a href="main.html" class="prev-button">Home</a>
       <a href="page4.html" class="next-button">Next</a>
-</div>
+    </div>
   </body>
 </html>
