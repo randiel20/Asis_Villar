@@ -300,7 +300,6 @@ p {
   text-align: center;
 }
 
-
 .prev-button,
 .next-button {
   background-color: #6f4e37;
@@ -320,4 +319,17 @@ p {
 
 a {
   text-decoration: none;
+}
+
+/* page 3 css */
+
+.card {
+  border: 2px solid #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: #fff;
+  color: #2c3e50;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
 }
