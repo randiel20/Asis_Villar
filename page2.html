@@ -15,35 +15,53 @@
 
   <!--- did some changes here --->
   <body>
-    <div class="cong">
-      <nav>
+    <header> 
+      <div class="logo">Portfolio</div>
+      <div class="random">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      
+      <!--Nav-->
+       <nav class="nav-bar">
         <ul>
           <li><a href="main.html" class="nav-link active">Home</a></li>
           <li><a href="page7.html" class="nav-link">About</a></li>
           <li><a href="page8.html" class="nav-link">Socials</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
+    
+    <script>
+      random = document.querySelector(".random");
+      random.onclick = function(){
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      }
+    </script>
     <br />
 
-    <div class="row">
-      <div class="col-md-4">
-        <div class="profile-pic"></div>
-        <h1 class="text-center">Randiel James Asis</h1>
-        <h5>DrugLods</h5>
-        <address>
-          <p>IT Student</p>
-          <p>Programmer</p>
-          <p>Can fix refrigerator</p>
-          <p>Can Be your UwU</p>
-          <p>
-            <a href="mailto:randieljameszaragoza.asis@bicol-u.edu.ph"
-              >randieljameszaragoza.asis@bicol-u.edu.ph</a
-            >
-          </p>
-        </address>
-      </div>
-    </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+           <div class="container mt-4">
+      <div class="profile-pic-2"></div>
+
+      <h1 class="text-center">Randiel James Z. Asis</h1>
+          <h5>DrugLods</h5>
+          <address>
+            <p>IT Student</p>
+            <p>Programmer</p>
+            <p>Gastador</p>
+            <p>Eme</p>
+            <p>
+              <a href="mailto:randieljameszaragoza.asis@bicol-u.edu.ph"
+                >randieljameszaragoza.asis@bicol-u.edu.ph/a
+              >
+            </p>
+          </address>
+        </div>
     <div class="button-container">
       <a href="main.html" class="prev-button">Home</a>
       <a href="page8.html" class="next-button">Next</a>
