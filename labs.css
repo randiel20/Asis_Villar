@@ -18,6 +18,7 @@ ul {
 
 li {
   float: left;
+  text-decoration: none;
 }
 
 li a {
@@ -70,7 +71,7 @@ li a:hover {
 /* main page css */
 .btn {
   padding: 10px 20px;
-  background-color: #008cba;
+  background-color: #6f4e37;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -80,7 +81,7 @@ li a:hover {
 }
 
 .btn:hover {
-  background-color: #006b8e;
+  background-color: #7e5233;
 }
 
 .btn-1 {
@@ -204,4 +205,31 @@ p {
   margin: 0;
   justify-content: center;
   display: flex;
+}
+
+/* buttons next and prev */
+
+.button-container {
+  text-align: center;
+}
+
+.prev-button,
+.next-button {
+  background-color: #6f4e37;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #613c22;
+}
+
+a {
+  text-decoration: none;
 }
