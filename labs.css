@@ -8,6 +8,7 @@
 
 body {
   background-color: #e8e4c9;
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
 
 header {
@@ -326,10 +327,10 @@ a {
 .card {
   border: 2px solid #2c3e50;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px #ac5a20(0, 0, 0, 0.2);
   padding: 30px;
   background-color: #fff;
   color: #2c3e50;
   font-size: 16px;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
