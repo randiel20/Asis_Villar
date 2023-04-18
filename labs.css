@@ -182,7 +182,7 @@ header {
 /* main page css */
 .btn {
   padding: 10px 20px;
-  background-color: #6f4e37;
+  background-color: #11101b;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -192,7 +192,7 @@ header {
 }
 
 .btn:hover {
-  background-color: #7e5233;
+  background-color: #211f36;
 }
 
 .btn-1 {
@@ -334,7 +334,7 @@ p {
 
 .prev-button,
 .next-button {
-  background-color: #6f4e37;
+  background-color: #11101b;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -345,7 +345,7 @@ p {
 
 .prev-button:hover,
 .next-button:hover {
-  background-color: #613c22;
+  background-color: #211f36;
   text-decoration: none;
   color: white;
 }
@@ -406,7 +406,7 @@ p {
 
 /* page 3 */
 .container-5 {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
