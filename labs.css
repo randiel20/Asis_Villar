@@ -129,8 +129,8 @@ header {
 }
 
 .profile-pic {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin-bottom: 20px;
   background-image: url("https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/328052343_556011443123401_3820500266946945157_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFjXPT0ubfmPdUUIXFB9c-IqYVLv89htOyphUu_z2G07CyjamJYfiZiteh80ByJkmERl4f5pSVGzsIvEGoQAv4h&_nc_ohc=T9h9EvBKBMsAX9sojr3&_nc_ht=scontent-cdg4-2.xx&oh=00_AfDAk2zl3TaVQ2SK5AVn4WwkmoB_cYgjx_O3-3ytB6g19w&oe=643B95F4");
@@ -155,8 +155,8 @@ header {
 }
 
 .profile-pic-2 {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin-bottom: 20px;
   background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/321992975_851176772830527_7492261547739738004_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEMcElqMmfqh48hcxh2HC7-lDYB4-LvBKWUNgHj4u8Epfu7oldDIBsZDpx5XpUEzBQQDB2K_JUG8-1VWEWn5WHr&_nc_ohc=9_5_qbAtSBYAX8UXbjB&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBjqqMx7_1fHG6rkeaf5KF983bOWlc0qM2IoyNkeROG9w&oe=643C6AEF");
@@ -339,19 +339,16 @@ p {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .prev-button:hover,
 .next-button:hover {
   background-color: #613c22;
-}
-
-a {
   text-decoration: none;
+  color: white;
 }
 
-/* page 3 css */
+/* page 5 css do not remove */
 
 .card {
   border: 2px solid #2c3e50;
@@ -362,4 +359,143 @@ a {
   color: #2c3e50;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+/* page 2 css */
+
+.card-2 {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-2 img {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.card-2 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-2 .bio-2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.card-2 .hobbies-2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-2 .hobbies-2 li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* page 3 */
+.container-5 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header-5 {
+  background-color: #6f4e37;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-5 h1 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+.header-5 p {
+  text-align: center;
+}
+
+.section-5 {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-5 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-5 p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.section-5 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section-5 li {
+  margin-bottom: 10px;
+}
+
+.education-5 ul li {
+  margin-bottom: 10px;
+}
+
+.education-5 h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.education-5 p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.skills-5 ul li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.skills-5 h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.about-5 {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.about-5 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-5 p {
+  margin: 0;
+  padding: 5px 0;
 }
