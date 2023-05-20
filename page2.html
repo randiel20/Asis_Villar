@@ -11,7 +11,68 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="labs.css" />
+
+    <style>
+
+      main {
+        margin: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main .cardOne {
+        background-color: white;
+        width: 500px;
+        height: 465px;
+        position: relative;
+        border-radius: 3%;
+      }
+
+      img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .profileTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+
+      .cardBody {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 30px;
+      }
+
+      .cardBody ul li {
+        list-style: none;
+        margin-top: 2px;
+      }
+
+      .line {
+        width: 1px;
+        height: 100px;
+        background-color: black;
+      }
+
+      p {
+        margin: 0;
+        justify-content: center;
+        display: flex;
+      }
+    </style>
   </head>
+
 
   <!--- did some changes here --->
   <body>
@@ -43,9 +104,54 @@
     </script>
     <br />
 
+    <!--- FIX THE STYLE -->
+
+    <main>
+      <div class="cardOne">
+        <img src="RJA.jpg" alt="profile" />
+        <div class="profileTitle">
+          <h1 style="color: black">Randiel James Z. Asis</h1>
+          <h3 style="color: black">BS Information Technology</h3>
+          <h6><i>"Single Not Ready To Mingle"</i></h6>
+        </div>
+        <div class="cardBody">
+          <div class="skills">
+            <h2>SKILLS</h2>
+            <ul>
+              <li>Ginanon</li>
+              <li>Mentally Unstable</li>
+              <li>Tired Already</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="hobbies">
+            <h2>HOBBIES</h2>
+            <ul>
+              <li>Binge Watch</li>
+              <li>Play Games</li>
+              <li>Listen to Music</li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          <a
+            href="mailto:randieljameszaragoza.asis@bicol-u.edu.ph"
+            style="color: #0c2431"
+          >
+          randieljameszaragoza.asis@bicol-u.edu.ph</a
+          >
+        </p>
+        <br />
+        <div class="button-container">
+          <a href="main.html" class="prev-button">Home</a>
+          <a href="page3.html" class="next-button">Next</a>
+        </div>
+      </div>
+    </main>
+
+    <!--
     <div class="container mt-4">
       <div class="card-2">
-        <!-- <div class="profile-pic-pic1"></div> -->
         <img src="RJA.jpg" alt="My Profile Picture" class="profile-pic" />
         <h1>Randiel James Z. Asis</h1>
         <p class="bio-2">Falling in love with someone?</p>
@@ -62,5 +168,6 @@
         </div>
       </div>
     </div>
+    ---->
   </body>
 </html>
