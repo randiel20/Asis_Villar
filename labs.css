@@ -365,7 +365,7 @@ p {
 .prev-button,
 .next-button {
   background-color: white;
-  color: white;
+  color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -377,7 +377,7 @@ p {
 .next-button:hover {
   background-color: #211f36;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* page 5 css do not remove */
