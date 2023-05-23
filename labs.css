@@ -23,13 +23,6 @@ header {
   padding: 0 100px;
 }
 
-.logo img {
-  max-width: 500%;
-  max-height: 200%;
-  cursor: pointer;
-  
-}
-
 .random {
   display: none;
 }
