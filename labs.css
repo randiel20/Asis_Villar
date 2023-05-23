@@ -23,11 +23,11 @@ header {
   padding: 0 100px;
 }
 
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-  color: #fefefe;
+.logo img {
+  max-width: 500%;
+  max-height: 200%;
   cursor: pointer;
+  
 }
 
 .random {
