@@ -141,17 +141,24 @@ header {
 
 /* keyframe animation for typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* keyframe animation for blinking cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #000 }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
 }
-
-
 
 /* IMAGES FOR PROFILE */
 .profile-pic {
@@ -166,7 +173,6 @@ header {
   display: inline-block;
   text-align: center;
   border: 5px solid white;
-
 }
 
 .profile-pic-pic1 {
@@ -193,7 +199,6 @@ header {
   cursor: pointer;
   display: inline-block;
   border: 5px solid white;
-
 }
 
 .profile-pic-pic2 {
@@ -309,8 +314,6 @@ address a:hover {
   text-decoration: underline;
 }
 
-
-
 /* page 7 css */
 
 /*
@@ -389,8 +392,6 @@ p {
   font-size: 16px;
   font-family: "Times New Roman", Times, serif, sans-serif;
 }
-
-
 
 /* page 3 */
 .container-5 {
