@@ -4,20 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>R&M Portfolio</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="labs.css" />
-    <script src="script.js"></script>
+    <link rel="icon" href="logo2.png" type="image" />
 
-    <style>
-
+   <!------ <style>
       main {
-        margin: 75px;
+        margin: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -72,14 +69,67 @@
         justify-content: center;
         display: flex;
       }
-    </style>
-  </head>
+    </style> -->
 
+    <style>
+      .card-05 {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 750px;
+        height: 450px;
+        margin: 0 auto;
+      }
+    
+      .card-05 img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+        border: 5px solid #212A3E; 
+        margin-left: -150px; 
+
+      }
+    
+      .card-05 .profileTitle {
+        margin-right: 50px; /* Added margin */
+        text-align: center;
+        flex: 1;
+      }
+    
+      .card-05 .profileTitle h1,
+      .card-05 .profileTitle h3 {
+        color: black;
+        margin: 0;
+      }
+    
+      .card-05 .cardBody {
+        margin-right: 50px; /* Added margin */
+        text-align: center;
+        flex: 1;
+      }
+    
+      .card-05 .cardBody h2 {
+        margin-top: 0;
+      }
+    
+      .card-05 .line {
+        height: 1px;
+        background-color: black;
+        margin: 20px 0;
+      }
+    </style>
+
+  </head>
   <body>
     <header>
-      <div class="logo"> 
-        <img src="logo1.png" alt="logo" /> </div>
-        
+      <div class="logo">R&M PORTFOLIO
+      </div>
+
       <div class="random">
         <div class="line"></div>
         <div class="line"></div>
@@ -104,43 +154,50 @@
         navBar.classList.toggle("active");
       };
     </script>
+    <br />
 
+    <!---- Main Content -->
+    <br>
     <main>
-      <div class="cardOne">
+      <div class="card-05">
         <img src="MCV.jpg" alt="profile" />
         <div class="profileTitle">
-          <h1 style="color: black">Merry Chris B. Villar</h1>
-          <h3 style="color: black">BS Information Technology</h3>
-          <h6><i>"Aer Respirare Cum Finis"</i></h6>
+          <h2>VILLAR, <br> Merry Chris </h2><br>
+          <h4>BS Information Technology </h4><br>
+          <p>MOTTO: </p>
+          <p><i>"Aer respirare cum finis"</i></p><br>
+          <p>
+            <a href="mailto:merrychrisbismonte.villar@bicol-u.edu.ph" style="color: #0c2431; font-size: 12.5px;">merrychrisbismonte.villar@bicol-u.edu.ph</a>
+          </p>
+          <br />
         </div>
         <div class="cardBody">
           <div class="skills">
             <h2>SKILLS</h2>
             <ul>
-              <li>Ginanon</li>
-              <li>Mentally Unstable</li>
-              <li>Tired Already</li>
+              <li>Communication</li>
+              <li>Time Management</li>
+              <li>Technology Literacy</li>
+              <li>Adaptability</li>
             </ul>
           </div>
+          <br>
           <div class="line"></div>
+          <br>
           <div class="hobbies">
             <h2>HOBBIES</h2>
             <ul>
               <li>Read Books</li>
-              <li>TIKTOK</li>
-              <li>FACEBOOK</li>
+              <li>Binge Watch</li>
+              <li>Make & Sing A Songs</li>
+              <li>Listen to Musics</li>
             </ul>
           </div>
         </div>
-        <p>
-          <a
-            href="mailto:merrychrisbismonte.villar@bicol-u.edu.ph"
-            style="color: #0c2431"
-          >
-            merrychrisbismonte.villar@bicol-u.edu.ph</a
-          >
-        </p>
-        <br />
+      </div>
+    </main>
+      
+      <br><br>
         <div class="button-container">
           <a href="main.html" class="prev-button">Home</a>
           <a href="page6.html" class="next-button">Next</a>
@@ -148,31 +205,5 @@
       </div>
     </main>
 
-    <!-----
-        <br />
-      <div class="row">
-        <div class="col-md-4">
-           <div class="container mt-4">
-      <div class="profile-pic-pic2"></div>
-
-      <h1 class="text-center">Merry Chris Villar</h1>
-          <h5>DrugLods</h5>
-          <address>
-            <p>IT Student</p>
-            <p>Programmer</p>
-            <p>Gastador</p>
-            <p>Eme</p>
-            <p>
-              <a href="mailto:merrychrisbismonte.villar@bicol-u.edu.ph"
-                >merrychrisbismonte.villar@bicol-u.edu.ph/a
-              >
-            </p>
-          </address>
-        </div>
-      <div class="button-container">
-      <a href="main.html" class="prev-button">Home</a>
-      <a href="page6.html" class="next-button">Next</a>
-    </div>
-    ---->
   </body>
 </html>

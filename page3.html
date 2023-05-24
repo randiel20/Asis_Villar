@@ -10,13 +10,110 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="labs.css" />
+    <link rel="icon" href="logo2.png" type="image" />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body .new2 {
+        width: 100%;
+        height: 100vh;
+        background-color: #e1dad2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container-three {
+        width: 100%;
+        padding: 35px 10%;
+      }
+
+      .container-three {
+        padding-right: calc(10% - 30px);
+      }
+      main.row-03 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+      }
+
+      .col-03 .title-03 {
+        color: #0c2431;
+        padding: 0px 0px 20px 30px;
+      }
+
+      .col-03 .contents-03 {
+        padding: 0px 30px;
+        border-left: 2px solid #bababa;
+      }
+
+      .col-03 .contents-03 .box-03 {
+        position: relative;
+        padding: 20px;
+        border: 1.5px solid #eaeaea;
+        background-color: #ffff;
+        cursor: pointer;
+        transition: all 0.4s;
+        margin-bottom: 20px;
+      }
+
+      .col-03 .contents-03 .box-03:hover {
+        box-shadow: 0px 5px 5px 0px #666;
+        border: 1px solid transparent;
+      }
+
+      .col-03 .contents-03 .box-03::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        right: calc(100% + 22px);
+        top: 0;
+        background-color: #194a50;
+        border: 2px solid white;
+      }
+
+      .box-03 h4 {
+        position: relative;
+        color: #194a50;
+      }
+
+      .box-03 h3 {
+        font-size: 19px;
+        padding: 10px 0px 6px;
+        color: #444;
+      }
+
+      .box-03 p {
+        line-height: 1;
+        color: #666;
+        font-size: 17px;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        main.row-03 {
+          grid-template-columns: 1fr;
+        }
+        .row-03 .col-03:nth-child(2) {
+          margin-top: 30px;
+        }
+      }
+    </style>
+
   </head>
 
-  <body class="container-5">
+  <body class="new2">
     <header>
-       <div class="logo"> 
-        <img src="logo1.png" alt="logo" />
+      <div class="logo">R&M PORTFOLIO
       </div>
+
       <div class="random">
         <div class="line"></div>
         <div class="line"></div>
@@ -43,64 +140,84 @@
     </script>
 
     <!--- DETAILS ABOUT HIM -->
-    <div class="header-5">
-      <h1>Randiel James Z. Asis</h1>
-      <p>
-        Email: randieljameszaragoza.asis@bicol-u.edu.ph | Phone: 0930-082-8470 |
-        FACEBOOK: https://www.facebook.com/randieljameszaragoza.asis
-      </p>
-    </div>
+    <div class="container-three">
+      <main class="row-03">
+        <section class="col-03">
+          <div class="title-03">
+            <h2 style="color: white;">ABOUT HIM</h2>
+          </div>
 
-    <div class="about-5" style="background-color: white; margin: 20px">
-      <h2>About</h2>
-      <p>Address: Purok-1, Jaboyo-an, Aroroy, Masbate</p>
-      <p>
-        Date of Birth: September 29, 2002 | Nationality: Filipino | Gender: Male
-      </p>
-    </div>
+          <div class="contents-03">
+            <div class="box-03">
+              <h4>Name:</h4>
+              <h3>Randiel James Z. Asis</h3>
+            </div>
+            <div class="box-03">
+              <h4>Birthdate:</h4>
+              <h3>September 29, 2002</h3>
+            </div>
+            <div class="box-03">
+              <h4>Address:</h4>
+              <h3>Zone 01, Jaboyo-an, Aroroy - Masbate </h3>
+            </div>
 
-    <div class="section-5" style="background-color: white; margin: 20px">
-      <h2>Summary</h2>
-      <p>
-        A IT student from Bicol University striving to learn. This person can be
-        shy at first when you know him you can be at ease
-      </p>
-    </div>
+            <div class="box-03">
+              <h4>Course:</h4>
+              <h3>
+                BS in Information Technology <br />
+                2nd Year - Block B
+              </h3>
+            </div>
 
-    <div class="section education-5">
-      <h2>Education</h2>
-      <br />
-      <ul>
-        <li>
-          <h4>Bicol University</h4>
-          <p>Present</p>
-        </li>
-        <li>
-          <h4>Aroroy National High School, (Senior) STEM Program</h4>
-          <p>2019-2021</p>
-        </li>
-        <li>
-          <h4>Aroroy National High School, (Junior) STE Program</h4>
-          <p>2015-2019</p>
-        </li>
-        <li>
-          <h4>Aroroy East Central School</h4>
-          <h4>F Serrano Sr. Elementary School</h4>
-          <p>2009-2015</p>
-        </li>
-      </ul>
-    </div>
+            <div class="box-03">
+              <h4>Language Known:</h4>
+              <h3>English, Filipino, Bicol-Masbate</h3>
+            </div>
+          </div>
+        </section>
 
-    <div class="section skills-5">
-      <h2>Skills</h2>
-      <ul>
-        <li>Cooding</li>
-        <li>Cooking</li>
-        <li>Leadership</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+        <section class="col-03">
+          <div class="title-03">
+            <h2 style="color: white;">EDUCATION</h2>
+          </div>
+
+          <div class="contents-03">
+            <div class="box-03">
+              <h4>Present</h4>
+              <h3>COLLEGE</h3>
+              <p>
+                Bicol University <br />
+                Main Campus - Bicol University Legazpi City.
+              </p>
+            </div>
+            <div class="box-03">
+              <h4>2019-2021</h4>
+              <h3>SENIOR HIGH SCHOOL</h3>
+              <p>
+                STEM Program <br />
+                Aroroy National High School <br />
+                Aroroy Masbate
+              </p>
+            </div>
+            <div class="box-03">
+              <h4>2015-2019</h4>
+              <h3>JUNIOR HIGH SCHOOL</h3>
+              <p>
+                Aroroy National High School <br />
+                Aroroy Masbate
+              </p>
+            </div>
+            <div class="box-03">
+              <h4>2009-2015</h4>
+              <h3>ELEMENTARY</h3>
+              <p>
+                Aroroy East Central School <br />
+                Aroroy Masbate
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
 
     <br />
     <div class="button-container">

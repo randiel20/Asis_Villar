@@ -7,8 +7,8 @@
 }
 
 body {
-  /* background-color: #e1dad2; */
-  background-image: url("ele.jpg");
+  background: linear-gradient(90deg, rgba(57,72,103,1) 0%, rgba(33,42,62,1) 35%, rgba(32,82,149,1) 100%);
+  /* background-image: url("ele.jpg"); */
   background-size: cover;
   font-family: "Times New Roman", Times, serif, sans-serif;
 }
@@ -111,6 +111,13 @@ header {
   }
 }
 
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; 
+}
+
+/*
 .logo img {
   display: inline-block;
   vertical-align: middle;
@@ -122,6 +129,8 @@ header {
 .logo img {
  border-radius: 0;
 }
+*/
+
 /* General css */
 .container {
   display: flex;
