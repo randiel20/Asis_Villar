@@ -4,67 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>R&M Portfolio</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="labs.css" />
-    <link rel="icon" href="logo2.png" type="image" />
-
-    <style>
-      .container-07 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-      }
-      
-      .card-07 {
-        margin-top: 50px;
-        width: 650px;
-        height: 450px;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        background-color: #537895;
-      background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-      }
-      
-      .card-title-07 {
-        text-align: center;
-        color: #ffff;
-      }
-      
-      .video-wrapper {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%;
-      }
-      
-      .video-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-        
-      </style>    
+    <link rel="stylesheet" href="labs.css" />             <!---- CSS ---->
+    <link rel="icon" href="logo2.png" type="image" />  <!---- TITLE LOGO --->
   </head>
-  <body>
+
+ <body>
+    <!---- HEADER --->
     <header>
       <div class="logo">R&M PORTFOLIO
       </div>
 
-        <div class="random">
+      <div class="random">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </div>
 
-      <!--Nav-->
+      <!---- NAV ---->
       <nav class="nav-bar">
         <ul>
           <li><a href="main.html" class="nav-link">Home</a></li>
@@ -75,6 +36,7 @@
       </nav>
     </header>
 
+    <!---- JAVASCRIPT --->
     <script>
       random = document.querySelector(".random");
       random.onclick = function () {
@@ -83,6 +45,7 @@
       };
     </script>
 
+    <!---- SELF INTRODUCTION VIDEO : MERRY CHRIS ---->
       <div class="container-07">
         <div class="card-07">
           <h2 class="card-title-07">Watch: To Know More About Her</h2><br>
@@ -93,9 +56,9 @@
           </div>
         </div>
       </div>
-
       <br />
-    </div>
+
+    <!---- PREV AND NEXT BUTTONS ---->
     <div class="button-container">
       <a href="page6.html" class="prev-button">Prev</a>
       <a href="page8.html" class="next-button">Next</a>

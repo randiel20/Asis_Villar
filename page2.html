@@ -9,129 +9,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="labs.css" />
-    <link rel="icon" href="logo2.png" type="image" />
-
-   <!------ <style>
-      main {
-        margin: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      main .cardOne {
-        background-color: white;
-        width: 500px;
-        height: 465px;
-        position: relative;
-        border-radius: 3%;
-      }
-
-      img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        top: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      .profileTitle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 100px;
-      }
-
-      .cardBody {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 30px;
-      }
-
-      .cardBody ul li {
-        list-style: none;
-        margin-top: 2px;
-      }
-
-      .line {
-        width: 1px;
-        height: 100px;
-        background-color: black;
-      }
-
-      p {
-        margin: 0;
-        justify-content: center;
-        display: flex;
-      }
-    </style> -->
-
-    <style>
-      .card-02 {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        background-color: #f1f1f1;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        width: 750px;
-        height: 450px;
-        margin: 0 auto;
-      }
-    
-      .card-02 img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-right: 20px;
-        border: 5px solid #212A3E; 
-        margin-left: -150px; 
-
-      }
-    
-      .card-02 .profileTitle {
-        margin-right: 50px; /* Added margin */
-        text-align: center;
-        flex: 1;
-      }
-    
-      .card-02 .profileTitle h1,
-      .card-02 .profileTitle h3 {
-        color: black;
-        margin: 0;
-      }
-    
-      .card-02 .cardBody {
-        margin-right: 50px; /* Added margin */
-        text-align: center;
-        flex: 1;
-      }
-    
-      .card-02 .cardBody h2 {
-        margin-top: 0;
-      }
-    
-      .card-02 .line {
-        height: 1px;
-        background-color: black;
-        margin: 20px 0;
-      }
-
-      @media (max-width: 768px) {
-      .card-02 {
-        max-width: 90%;
-      }
-    }
-    </style>
-
+    <link rel="stylesheet" href="labs.css" />             <!---- CSS ---->
+    <link rel="icon" href="logo2.png" type="image" />  <!---- TITLE LOGO --->
   </head>
-  <body>
+
+ <body>
+    <!---- HEADER --->
     <header>
       <div class="logo">R&M PORTFOLIO
       </div>
@@ -142,7 +25,7 @@
         <div class="line"></div>
       </div>
 
-      <!--Nav-->
+      <!---- NAV ---->
       <nav class="nav-bar">
         <ul>
           <li><a href="main.html" class="nav-link">Home</a></li>
@@ -153,6 +36,7 @@
       </nav>
     </header>
 
+    <!---- JAVASCRIPT --->
     <script>
       random = document.querySelector(".random");
       random.onclick = function () {
@@ -160,10 +44,9 @@
         navBar.classList.toggle("active");
       };
     </script>
-    <br />
 
-    <!---- Main Content -->
-    <br>
+    <!---- CONTENT: ABOUT RANDIEL JAMES ASIS ---->
+    <br><br>
     <main>
       <div class="card-02">
         <img src="RJA.jpg" alt="profile" />
@@ -201,6 +84,7 @@
       </div>
     </main>
       
+      <!---- PREV AND NEXT BUTTONS ---->
       <br><br>
         <div class="button-container">
           <a href="main.html" class="prev-button">Home</a>

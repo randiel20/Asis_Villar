@@ -4,47 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>R&M Portfolio</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <link rel="icon" href="logo2.png" type="image" />
-    <link rel="stylesheet" href="labs.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="labs.css" />             <!---- CSS ---->
+    <link rel="icon" href="logo2.png" type="image" />  <!---- TITLE LOGO --->
   </head>
-  <body>
-    <header> 
-      <div class="logo">R&M PORTFOLIO
-      </div>
 
-        <div class="random">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      
-      <!--Nav-->
-       <nav class="nav-bar">
-        <ul>
-          <li><a href="main.html" class="nav-link">Home</a></li>
-          <li><a href="page2.html" class="nav-link">Him</a></li>
-          <li><a href="page5.html" class="nav-link">Her</a></li>
-          <li><a href="page8.html" class="nav-link">Socials</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <script>
-      random = document.querySelector(".random");
-      random.onclick = function(){
-        navBar = document.querySelector(".nav-bar");
-        navBar.classList.toggle("active");
-      }
-    </script>
-   
-   <style>
+  <style> /* separate CSS for this image in this page */
     img{
         width: 150px;
         height: 150px;
@@ -55,10 +25,43 @@
         margin-top: -90px; 
     }
    </style>
-   <!-- A PLUS EME EME TO THIS PAGE -->
+
+  <body>
+    <!---- HEADER --->
+    <header>
+      <div class="logo">R&M PORTFOLIO
+      </div>
+
+      <div class="random">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <!---- NAV ---->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="main.html" class="nav-link">Home</a></li>
+          <li><a href="page2.html" class="nav-link">Him</a></li>
+          <li><a href="page5.html" class="nav-link">Her</a></li>
+          <li><a href="page8.html" class="nav-link">Socials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!---- JAVASCRIPT --->
+    <script>
+      random = document.querySelector(".random");
+      random.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      };
+    </script>
+
+   <!---- EACH OTHERS SOCIAL LINKS ---->
    <div class="section" style="display: flex; margin-top: 7%;">
     <div class="card" style="width: 50%; margin-right: 5%;">
-      <img src="RJA.jpg" alt="Randiel's Image">
+      <img class="pic" src="RJA.jpg" alt="Randiel's Image">
       <h1>Randiel Social Profiles</h1>
       <div class="social-links">
         <a href="https://www.facebook.com/randieljameszaragoza.asis" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -77,11 +80,11 @@
       </div>
     </div>
   </div>
-  
-  
 <br>
-            <div class="button-container">
-   <a href="page2.html" class="prev-button">Him</a>
+
+    <!---- PREV AND NEXT BUTTONS ---->
+    <div class="button-container">
+    <a href="page2.html" class="prev-button">Him</a>
       <a href="main.html" class="next-button">Home</a>
       <a href="page5.html" class="next-button">Her</a>
 </div>
