@@ -1,4 +1,5 @@
 #Website 
+HTML, CSS, JAVASCRIPT & JQUERY
 
 
 Name: Randiel James Z. Asis
