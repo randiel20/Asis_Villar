@@ -9,8 +9,25 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!---- JQUERY ---->
     <link rel="stylesheet" href="labs.css" />             <!---- CSS ---->
     <link rel="icon" href="logo2.png" type="image" />  <!---- TITLE LOGO --->
+
+    <!------- JQUERY ANIMATION : WILL SLIDETOGGLE THE SKILLS AND HOBBIES ------>
+    <script>
+      $(document).ready(function() {
+        $(".profileTitle").click(function() {
+          $(".cardBody").slideToggle();
+        });
+      });
+    </script>
+
+  <style>
+  /* CSS styles for the animation */
+  .cardBody {
+    display: none;
+  }
+  </style>
   </head>
 
  <body>

@@ -9,8 +9,33 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!---JQUERY-->
     <link rel="stylesheet" href="labs.css" />             <!---- CSS ---->
     <link rel="icon" href="logo2.png" type="image" />  <!---- TITLE LOGO --->
+
+    <!---- JQUERY ANIMATION ----->
+    <script>
+      $(document).ready(function() {
+        $(".fade-in").fadeIn(1500);
+      });
+    </script>
+
+    <!---- CSS FOR THE ANIMATION -->
+    <style>
+      .fade-in {
+        opacity: 0;
+        animation: fadeInAnimation 1s ease-in forwards;
+      }
+
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
 
  <body>
@@ -46,7 +71,7 @@
     </script>
 
     <!---- SELF INTRODUCTION VIDEO : MERRY CHRIS ---->
-      <div class="container-07">
+      <div class="container-07 fade-in">
         <div class="card-07">
           <h2 class="card-title-07">Watch: To Know More About Her</h2><br>
           <div class="card-body-07">
